@@ -41,9 +41,6 @@
 		<td><{$word.del}></td>
 		<td></td>
 	</tr>
-$ind=0;
-while
-$ind++
 	<{foreach from=$list item=name key=k}>
 
 	<tr>
