@@ -1,13 +1,13 @@
 
 <?php // require_once("mysql.php");
 ini_set("display_errors", "On");
-include_once("Smarty.class.php");
+include_once("./smarty/Smarty.class.php");
 
 $smarty = new Smarty();
-$smarty->template_dir = 'templates';
-$smarty->compile_dir = 'templates_c';
+$smarty->template_dir = 'tpl/templates';
+$smarty->compile_dir = 'tpl/templates_c';
 $smarty->config_dir = 'configs';
-$smarty->cache_dir = 'cache';
+$smarty->cache_dir = 'tpl/cache';
 $smarty->caching = false;
 
 $smarty->left_delimiter = "<{";
