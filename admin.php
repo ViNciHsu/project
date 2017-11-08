@@ -1,5 +1,5 @@
 
-<?php // require_once("mysql.php");
+<?php 
 ini_set("display_errors", "On");
 include_once("./smarty/Smarty.class.php");
 
